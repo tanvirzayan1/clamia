@@ -1,0 +1,101 @@
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #FFF8F0;
+    text-align: center;
+    color: #333;
+}
+
+.logo {
+    max-width: 120px;
+    margin-top: 20px;
+}
+
+.hero {
+    background-color: #FFF1E6;
+    padding: 40px 20px;
+}
+
+.cta {
+    padding: 12px 24px;
+    background-color: #A0C4FF;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.cta:hover {
+    background-color: #8bbaf5;
+}
+
+.chat-section {
+    background: #B7E4C7;
+    padding: 30px;
+}
+
+.chat-container {
+    background: white;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 20px;
+    height: 300px;
+    overflow-y: auto;
+}
+
+.message {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.message.ai {
+    color: #555;
+    font-style: italic;
+}
+
+.input-container {
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 16px;
+    border-radius: 10px;
+    background-color: #CDB4DB;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #bb9ed0;
+}
+
+.download-section {
+    background: #A0C4FF;
+    padding: 30px;
+    color: white;
+}
+
+.download-buttons button {
+    margin: 10px;
+    background-color: white;
+    color: #A0C4FF;
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+footer {
+    padding: 10px;
+    font-size: 14px;
+}
